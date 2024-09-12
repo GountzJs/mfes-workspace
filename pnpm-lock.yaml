@@ -24,71 +24,77 @@ importers:
   apps/cart-app:
     dependencies:
       '@angular/animations':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))
       '@angular/common':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0)
       '@angular/compiler':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))
       '@angular/core':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(rxjs@7.8.0)(zone.js@0.14.3)
       '@angular/forms':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(rxjs@7.8.0)
       '@angular/platform-browser':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))
       '@angular/platform-browser-dynamic':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))
       '@angular/router':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(rxjs@7.8.0)
+      '@ngrx/signals':
+        specifier: 18.0.2
+        version: 18.0.2(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0)
       rxjs:
-        specifier: ~7.8.0
+        specifier: 7.8.0
         version: 7.8.0
       tslib:
-        specifier: ^2.3.0
+        specifier: 2.3.0
         version: 2.3.0
+      workspace-shared:
+        specifier: workspace:*
+        version: link:../../packages/workspace-shared
       zone.js:
-        specifier: ~0.14.3
+        specifier: 0.14.3
         version: 0.14.3
     devDependencies:
       '@angular-devkit/build-angular':
-        specifier: ^18.1.4
-        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(typescript@5.5.2)
+        specifier: 18.1.4
+        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(ng-packagr@18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2))(typescript@5.5.2)
       '@angular/cli':
-        specifier: ^18.1.4
+        specifier: 18.1.4
         version: 18.1.4(chokidar@3.6.0)
       '@angular/compiler-cli':
-        specifier: ^18.1.0
+        specifier: 18.1.0
         version: 18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2)
       '@types/jasmine':
-        specifier: ~5.1.0
+        specifier: 5.1.0
         version: 5.1.0
       jasmine-core:
-        specifier: ~5.1.0
+        specifier: 5.1.0
         version: 5.1.0
       karma:
-        specifier: ~6.4.0
+        specifier: 6.4.0
         version: 6.4.0
       karma-chrome-launcher:
-        specifier: ~3.2.0
+        specifier: 3.2.0
         version: 3.2.0
       karma-coverage:
-        specifier: ~2.2.0
+        specifier: 2.2.0
         version: 2.2.0
       karma-jasmine:
-        specifier: ~5.1.0
+        specifier: 5.1.0
         version: 5.1.0(karma@6.4.0)
       karma-jasmine-html-reporter:
-        specifier: ~2.1.0
+        specifier: 2.1.0
         version: 2.1.0(jasmine-core@5.1.0)(karma-jasmine@5.1.0(karma@6.4.0))(karma@6.4.0)
       typescript:
-        specifier: ~5.5.2
+        specifier: 5.5.2
         version: 5.5.2
 
   apps/host-app:
@@ -117,19 +123,25 @@ importers:
       '@angular/router':
         specifier: 18.1.0
         version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(rxjs@7.8.0)
+      '@ngrx/signals':
+        specifier: 18.0.2
+        version: 18.0.2(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0)
       rxjs:
         specifier: 7.8.0
         version: 7.8.0
       tslib:
         specifier: 2.3.0
         version: 2.3.0
+      workspace-shared:
+        specifier: workspace:*
+        version: link:../../packages/workspace-shared
       zone.js:
         specifier: 0.14.3
         version: 0.14.3
     devDependencies:
       '@angular-devkit/build-angular':
         specifier: 18.1.4
-        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(typescript@5.5.2)
+        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(ng-packagr@18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2))(typescript@5.5.2)
       '@angular/cli':
         specifier: 18.1.4
         version: 18.1.4(chokidar@3.6.0)
@@ -187,19 +199,25 @@ importers:
       '@angular/router':
         specifier: 18.1.0
         version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(rxjs@7.8.0)
+      '@ngrx/signals':
+        specifier: 18.0.2
+        version: 18.0.2(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0)
       rxjs:
         specifier: 7.8.0
         version: 7.8.0
       tslib:
         specifier: 2.3.0
         version: 2.3.0
+      workspace-shared:
+        specifier: workspace:*
+        version: link:../../packages/workspace-shared
       zone.js:
         specifier: 0.14.3
         version: 0.14.3
     devDependencies:
       '@angular-devkit/build-angular':
         specifier: 18.1.4
-        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(typescript@5.5.2)
+        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(ng-packagr@18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2))(typescript@5.5.2)
       '@angular/cli':
         specifier: 18.1.4
         version: 18.1.4(chokidar@3.6.0)
@@ -257,19 +275,25 @@ importers:
       '@angular/router':
         specifier: 18.1.0
         version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(rxjs@7.8.0)
+      '@ngrx/signals':
+        specifier: 18.0.2
+        version: 18.0.2(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0)
       rxjs:
         specifier: 7.8.0
         version: 7.8.0
       tslib:
         specifier: 2.3.0
         version: 2.3.0
+      workspace-shared:
+        specifier: workspace:*
+        version: link:../../packages/workspace-shared
       zone.js:
         specifier: 0.14.3
         version: 0.14.3
     devDependencies:
       '@angular-devkit/build-angular':
         specifier: 18.1.4
-        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(typescript@5.5.2)
+        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(ng-packagr@18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2))(typescript@5.5.2)
       '@angular/cli':
         specifier: 18.1.4
         version: 18.1.4(chokidar@3.6.0)
@@ -297,6 +321,85 @@ importers:
       karma-jasmine-html-reporter:
         specifier: 2.1.0
         version: 2.1.0(jasmine-core@5.1.0)(karma-jasmine@5.1.0(karma@6.4.0))(karma@6.4.0)
+      typescript:
+        specifier: 5.5.2
+        version: 5.5.2
+
+  packages/mock-data:
+    devDependencies:
+      typescript:
+        specifier: 5.5.2
+        version: 5.5.2
+
+  packages/workspace-shared:
+    dependencies:
+      '@angular/animations':
+        specifier: 18.1.0
+        version: 18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))
+      '@angular/common':
+        specifier: 18.1.0
+        version: 18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0)
+      '@angular/compiler':
+        specifier: 18.1.0
+        version: 18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))
+      '@angular/core':
+        specifier: 18.1.0
+        version: 18.1.0(rxjs@7.8.0)(zone.js@0.14.3)
+      '@angular/forms':
+        specifier: 18.1.0
+        version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(rxjs@7.8.0)
+      '@angular/platform-browser':
+        specifier: 18.1.0
+        version: 18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))
+      '@angular/platform-browser-dynamic':
+        specifier: 18.1.0
+        version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))
+      '@angular/router':
+        specifier: 18.1.0
+        version: 18.1.0(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(@angular/platform-browser@18.1.0(@angular/animations@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(@angular/common@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0))(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(rxjs@7.8.0)
+      rxjs:
+        specifier: 7.8.0
+        version: 7.8.0
+      tslib:
+        specifier: 2.3.0
+        version: 2.3.0
+      zone.js:
+        specifier: 0.14.3
+        version: 0.14.3
+    devDependencies:
+      '@angular-devkit/build-angular':
+        specifier: ^18.1.4
+        version: 18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(ng-packagr@18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2))(typescript@5.5.2)
+      '@angular/cli':
+        specifier: 18.1.4
+        version: 18.1.4(chokidar@3.6.0)
+      '@angular/compiler-cli':
+        specifier: 18.1.0
+        version: 18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2)
+      '@types/jasmine':
+        specifier: 5.1.0
+        version: 5.1.0
+      jasmine-core:
+        specifier: 5.1.0
+        version: 5.1.0
+      karma:
+        specifier: 6.4.0
+        version: 6.4.0
+      karma-chrome-launcher:
+        specifier: 3.2.0
+        version: 3.2.0
+      karma-coverage:
+        specifier: 2.2.0
+        version: 2.2.0
+      karma-jasmine:
+        specifier: 5.1.0
+        version: 5.1.0(karma@6.4.0)
+      karma-jasmine-html-reporter:
+        specifier: 2.1.0
+        version: 2.1.0(jasmine-core@5.1.0)(karma-jasmine@5.1.0(karma@6.4.0))(karma@6.4.0)
+      ng-packagr:
+        specifier: ^18.1.0
+        version: 18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2)
       typescript:
         specifier: 5.5.2
         version: 5.5.2
@@ -1163,9 +1266,21 @@ packages:
     cpu: [ppc64]
     os: [aix]
 
+  '@esbuild/aix-ppc64@0.23.1':
+    resolution: {integrity: sha512-6VhYk1diRqrhBAqpJEdjASR/+WVRtfjpqKuNw11cLiaWpAT/Uu+nokB+UJnevzy/P9C/ty6AOe0dwueMrGh/iQ==}
+    engines: {node: '>=18'}
+    cpu: [ppc64]
+    os: [aix]
+
   '@esbuild/android-arm64@0.21.5':
     resolution: {integrity: sha512-c0uX9VAUBQ7dTDCjq+wdyGLowMdtR/GoC2U5IYk/7D1H1JYC0qseD7+11iMP2mRLN9RcCMRcjC4YMclCzGwS/A==}
     engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+
+  '@esbuild/android-arm64@0.23.1':
+    resolution: {integrity: sha512-xw50ipykXcLstLeWH7WRdQuysJqejuAGPd30vd1i5zSyKK3WE+ijzHmLKxdiCMtH1pHz78rOg0BKSYOSB/2Khw==}
+    engines: {node: '>=18'}
     cpu: [arm64]
     os: [android]
 
@@ -1175,9 +1290,21 @@ packages:
     cpu: [arm]
     os: [android]
 
+  '@esbuild/android-arm@0.23.1':
+    resolution: {integrity: sha512-uz6/tEy2IFm9RYOyvKl88zdzZfwEfKZmnX9Cj1BHjeSGNuGLuMD1kR8y5bteYmwqKm1tj8m4cb/aKEorr6fHWQ==}
+    engines: {node: '>=18'}
+    cpu: [arm]
+    os: [android]
+
   '@esbuild/android-x64@0.21.5':
     resolution: {integrity: sha512-D7aPRUUNHRBwHxzxRvp856rjUHRFW1SdQATKXH2hqA0kAZb1hKmi02OpYRacl0TxIGz/ZmXWlbZgjwWYaCakTA==}
     engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+
+  '@esbuild/android-x64@0.23.1':
+    resolution: {integrity: sha512-nlN9B69St9BwUoB+jkyU090bru8L0NA3yFvAd7k8dNsVH8bi9a8cUAUSEcEEgTp2z3dbEDGJGfP6VUnkQnlReg==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [android]
 
@@ -1187,9 +1314,21 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
+  '@esbuild/darwin-arm64@0.23.1':
+    resolution: {integrity: sha512-YsS2e3Wtgnw7Wq53XXBLcV6JhRsEq8hkfg91ESVadIrzr9wO6jJDMZnCQbHm1Guc5t/CdDiFSSfWP58FNuvT3Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [darwin]
+
   '@esbuild/darwin-x64@0.21.5':
     resolution: {integrity: sha512-se/JjF8NlmKVG4kNIuyWMV/22ZaerB+qaSi5MdrXtd6R08kvs2qCN4C09miupktDitvh8jRFflwGFBQcxZRjbw==}
     engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@esbuild/darwin-x64@0.23.1':
+    resolution: {integrity: sha512-aClqdgTDVPSEGgoCS8QDG37Gu8yc9lTHNAQlsztQ6ENetKEO//b8y31MMu2ZaPbn4kVsIABzVLXYLhCGekGDqw==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [darwin]
 
@@ -1199,9 +1338,21 @@ packages:
     cpu: [arm64]
     os: [freebsd]
 
+  '@esbuild/freebsd-arm64@0.23.1':
+    resolution: {integrity: sha512-h1k6yS8/pN/NHlMl5+v4XPfikhJulk4G+tKGFIOwURBSFzE8bixw1ebjluLOjfwtLqY0kewfjLSrO6tN2MgIhA==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [freebsd]
+
   '@esbuild/freebsd-x64@0.21.5':
     resolution: {integrity: sha512-J95kNBj1zkbMXtHVH29bBriQygMXqoVQOQYA+ISs0/2l3T9/kj42ow2mpqerRBxDJnmkUDCaQT/dfNXWX/ZZCQ==}
     engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@esbuild/freebsd-x64@0.23.1':
+    resolution: {integrity: sha512-lK1eJeyk1ZX8UklqFd/3A60UuZ/6UVfGT2LuGo3Wp4/z7eRTRYY+0xOu2kpClP+vMTi9wKOfXi2vjUpO1Ro76g==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [freebsd]
 
@@ -1211,9 +1362,21 @@ packages:
     cpu: [arm64]
     os: [linux]
 
+  '@esbuild/linux-arm64@0.23.1':
+    resolution: {integrity: sha512-/93bf2yxencYDnItMYV/v116zff6UyTjo4EtEQjUBeGiVpMmffDNUyD9UN2zV+V3LRV3/on4xdZ26NKzn6754g==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [linux]
+
   '@esbuild/linux-arm@0.21.5':
     resolution: {integrity: sha512-bPb5AHZtbeNGjCKVZ9UGqGwo8EUu4cLq68E95A53KlxAPRmUyYv2D6F0uUI65XisGOL1hBP5mTronbgo+0bFcA==}
     engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+
+  '@esbuild/linux-arm@0.23.1':
+    resolution: {integrity: sha512-CXXkzgn+dXAPs3WBwE+Kvnrf4WECwBdfjfeYHpMeVxWE0EceB6vhWGShs6wi0IYEqMSIzdOF1XjQ/Mkm5d7ZdQ==}
+    engines: {node: '>=18'}
     cpu: [arm]
     os: [linux]
 
@@ -1223,9 +1386,21 @@ packages:
     cpu: [ia32]
     os: [linux]
 
+  '@esbuild/linux-ia32@0.23.1':
+    resolution: {integrity: sha512-VTN4EuOHwXEkXzX5nTvVY4s7E/Krz7COC8xkftbbKRYAl96vPiUssGkeMELQMOnLOJ8k3BY1+ZY52tttZnHcXQ==}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [linux]
+
   '@esbuild/linux-loong64@0.21.5':
     resolution: {integrity: sha512-uHf1BmMG8qEvzdrzAqg2SIG/02+4/DHB6a9Kbya0XDvwDEKCoC8ZRWI5JJvNdUjtciBGFQ5PuBlpEOXQj+JQSg==}
     engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+
+  '@esbuild/linux-loong64@0.23.1':
+    resolution: {integrity: sha512-Vx09LzEoBa5zDnieH8LSMRToj7ir/Jeq0Gu6qJ/1GcBq9GkfoEAoXvLiW1U9J1qE/Y/Oyaq33w5p2ZWrNNHNEw==}
+    engines: {node: '>=18'}
     cpu: [loong64]
     os: [linux]
 
@@ -1235,9 +1410,21 @@ packages:
     cpu: [mips64el]
     os: [linux]
 
+  '@esbuild/linux-mips64el@0.23.1':
+    resolution: {integrity: sha512-nrFzzMQ7W4WRLNUOU5dlWAqa6yVeI0P78WKGUo7lg2HShq/yx+UYkeNSE0SSfSure0SqgnsxPvmAUu/vu0E+3Q==}
+    engines: {node: '>=18'}
+    cpu: [mips64el]
+    os: [linux]
+
   '@esbuild/linux-ppc64@0.21.5':
     resolution: {integrity: sha512-1hHV/Z4OEfMwpLO8rp7CvlhBDnjsC3CttJXIhBi+5Aj5r+MBvy4egg7wCbe//hSsT+RvDAG7s81tAvpL2XAE4w==}
     engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@esbuild/linux-ppc64@0.23.1':
+    resolution: {integrity: sha512-dKN8fgVqd0vUIjxuJI6P/9SSSe/mB9rvA98CSH2sJnlZ/OCZWO1DJvxj8jvKTfYUdGfcq2dDxoKaC6bHuTlgcw==}
+    engines: {node: '>=18'}
     cpu: [ppc64]
     os: [linux]
 
@@ -1247,9 +1434,21 @@ packages:
     cpu: [riscv64]
     os: [linux]
 
+  '@esbuild/linux-riscv64@0.23.1':
+    resolution: {integrity: sha512-5AV4Pzp80fhHL83JM6LoA6pTQVWgB1HovMBsLQ9OZWLDqVY8MVobBXNSmAJi//Csh6tcY7e7Lny2Hg1tElMjIA==}
+    engines: {node: '>=18'}
+    cpu: [riscv64]
+    os: [linux]
+
   '@esbuild/linux-s390x@0.21.5':
     resolution: {integrity: sha512-zus5sxzqBJD3eXxwvjN1yQkRepANgxE9lgOW2qLnmr8ikMTphkjgXu1HR01K4FJg8h1kEEDAqDcZQtbrRnB41A==}
     engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@esbuild/linux-s390x@0.23.1':
+    resolution: {integrity: sha512-9ygs73tuFCe6f6m/Tb+9LtYxWR4c9yg7zjt2cYkjDbDpV/xVn+68cQxMXCjUpYwEkze2RcU/rMnfIXNRFmSoDw==}
+    engines: {node: '>=18'}
     cpu: [s390x]
     os: [linux]
 
@@ -1259,15 +1458,39 @@ packages:
     cpu: [x64]
     os: [linux]
 
+  '@esbuild/linux-x64@0.23.1':
+    resolution: {integrity: sha512-EV6+ovTsEXCPAp58g2dD68LxoP/wK5pRvgy0J/HxPGB009omFPv3Yet0HiaqvrIrgPTBuC6wCH1LTOY91EO5hQ==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [linux]
+
   '@esbuild/netbsd-x64@0.21.5':
     resolution: {integrity: sha512-Woi2MXzXjMULccIwMnLciyZH4nCIMpWQAs049KEeMvOcNADVxo0UBIQPfSmxB3CWKedngg7sWZdLvLczpe0tLg==}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [netbsd]
 
+  '@esbuild/netbsd-x64@0.23.1':
+    resolution: {integrity: sha512-aevEkCNu7KlPRpYLjwmdcuNz6bDFiE7Z8XC4CPqExjTvrHugh28QzUXVOZtiYghciKUacNktqxdpymplil1beA==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@esbuild/openbsd-arm64@0.23.1':
+    resolution: {integrity: sha512-3x37szhLexNA4bXhLrCC/LImN/YtWis6WXr1VESlfVtVeoFJBRINPJ3f0a/6LV8zpikqoUg4hyXw0sFBt5Cr+Q==}
+    engines: {node: '>=18'}
+    cpu: [arm64]
+    os: [openbsd]
+
   '@esbuild/openbsd-x64@0.21.5':
     resolution: {integrity: sha512-HLNNw99xsvx12lFBUwoT8EVCsSvRNDVxNpjZ7bPn947b8gJPzeHWyNVhFsaerc0n3TsbOINvRP2byTZ5LKezow==}
     engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@esbuild/openbsd-x64@0.23.1':
+    resolution: {integrity: sha512-aY2gMmKmPhxfU+0EdnN+XNtGbjfQgwZj43k8G3fyrDM/UdZww6xrWxmDkuz2eCZchqVeABjV5BpildOrUbBTqA==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [openbsd]
 
@@ -1277,9 +1500,21 @@ packages:
     cpu: [x64]
     os: [sunos]
 
+  '@esbuild/sunos-x64@0.23.1':
+    resolution: {integrity: sha512-RBRT2gqEl0IKQABT4XTj78tpk9v7ehp+mazn2HbUeZl1YMdaGAQqhapjGTCe7uw7y0frDi4gS0uHzhvpFuI1sA==}
+    engines: {node: '>=18'}
+    cpu: [x64]
+    os: [sunos]
+
   '@esbuild/win32-arm64@0.21.5':
     resolution: {integrity: sha512-Z0gOTd75VvXqyq7nsl93zwahcTROgqvuAcYDUr+vOv8uHhNSKROyU961kgtCD1e95IqPKSQKH7tBTslnS3tA8A==}
     engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@esbuild/win32-arm64@0.23.1':
+    resolution: {integrity: sha512-4O+gPR5rEBe2FpKOVyiJ7wNDPA8nGzDuJ6gN4okSA1gEOYZ67N8JPk58tkWtdtPeLz7lBnY6I5L3jdsr3S+A6A==}
+    engines: {node: '>=18'}
     cpu: [arm64]
     os: [win32]
 
@@ -1289,9 +1524,21 @@ packages:
     cpu: [ia32]
     os: [win32]
 
+  '@esbuild/win32-ia32@0.23.1':
+    resolution: {integrity: sha512-BcaL0Vn6QwCwre3Y717nVHZbAa4UBEigzFm6VdsVdT/MbZ38xoj1X9HPkZhbmaBGUD1W8vxAfffbDe8bA6AKnQ==}
+    engines: {node: '>=18'}
+    cpu: [ia32]
+    os: [win32]
+
   '@esbuild/win32-x64@0.21.5':
     resolution: {integrity: sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==}
     engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+
+  '@esbuild/win32-x64@0.23.1':
+    resolution: {integrity: sha512-BHpFFeslkWrXWyUPnbKm+xYYVYruCinGcftSBaa8zoF9hZO4BcSCFUvHVTtzpIY6YzUnYtuEhZ+C9iEXjxnasg==}
+    engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
 
@@ -1488,6 +1735,15 @@ packages:
 
   '@napi-rs/wasm-runtime@0.2.4':
     resolution: {integrity: sha512-9zESzOO5aDByvhIAsOy9TbpZ0Ur2AJbUI7UT73kcUTS2mxAMHOBaa1st/jAymNoCtvrit99kkzT1FZuXVcgfIQ==}
+
+  '@ngrx/signals@18.0.2':
+    resolution: {integrity: sha512-FXmcY2cmkbhZtg9k8Ntq69SyelGmmb6fWtdButH4T8GGFH0o3f1FZTR829j4ynphy8SzuDhD/pzrnpWcV481oQ==}
+    peerDependencies:
+      '@angular/core': ^18.0.0
+      rxjs: ^6.5.3 || ^7.4.0
+    peerDependenciesMeta:
+      rxjs:
+        optional: true
 
   '@ngtools/webpack@18.1.4':
     resolution: {integrity: sha512-suoeZjd+7qd3ivzbNGGSzHtY/WMxTKU6ZD1gIIya0Un8Ve1eVxfq6Si6ReKqhygO8zN3paJMATn8sMmAV7qVrw==}
@@ -1703,6 +1959,33 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
+  '@rollup/plugin-json@6.1.0':
+    resolution: {integrity: sha512-EGI2te5ENk1coGeADSIwZ7G2Q8CJS2sF120T7jLw4xFw9n7wIOXHo+kIYRAoVpJAN+kmqZSoO3Fp4JtoNF4ReA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
+  '@rollup/plugin-node-resolve@15.2.3':
+    resolution: {integrity: sha512-j/lym8nf5E21LwBT4Df1VD6hRO2L2iwUeUmP7litikRsVp1H6NWx20NEp0Y7su+7XGc476GnXXc4kFeZNGmaSQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.78.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
+  '@rollup/pluginutils@5.1.0':
+    resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
   '@rollup/rollup-android-arm-eabi@4.18.0':
     resolution: {integrity: sha512-Tya6xypR10giZV1XzxmH5wr25VcZSncG0pZIjfePT0OVBvqNEurzValetGNarVrGiq66EBVAFn15iYX4w6FKgQ==}
     cpu: [arm]
@@ -1863,6 +2146,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@rollup/wasm-node@4.21.3':
+    resolution: {integrity: sha512-uZFl4GXMgyllfuKjY/zlXxTxDs+G/LB7snVENskpJt7IIXw6cD1yqi3eBeGM8NxE9kuxrNB0Qr1QLNtDYTlqeQ==}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+
   '@schematics/angular@18.1.4':
     resolution: {integrity: sha512-M3edVYKiAGWAAKs7XDLpz1OKUy4STVMT+46Y44ydYz06hI8m/dJfS8ZHTvXPl7JhkrIrSDEMed+WidZtGPIxMg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
@@ -1992,6 +2280,9 @@ packages:
 
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
+
+  '@types/resolve@1.20.2':
+    resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
 
   '@types/retry@0.12.2':
     resolution: {integrity: sha512-XISRgDJ2Tc5q4TRqvgJtzsRkFYNJzZrhTdtMoGVBttwzzQJkPnS3WWTFc7kuDRoPtPakl+T+OfdEUjYJj7Jbow==}
@@ -2321,6 +2612,10 @@ packages:
   buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
 
+  builtin-modules@3.3.0:
+    resolution: {integrity: sha512-zhaCDicdLuWN5UbN5IMnFqNMhNfo919sH85y2/ea+5Yg9TsTkeZxpL+JLbp6cgYFS4sRLp3YV4S6yDuqVWHYOw==}
+    engines: {node: '>=6'}
+
   bundle-name@4.1.0:
     resolution: {integrity: sha512-tjwM5exMg6BGRI+kNmTntNsvdZS1X8BFYS6tnJ2hdH0kVxM6/eVZ2xy+FqStSWvYmtfFMDLIxurorHwDKfDz5Q==}
     engines: {node: '>=18'}
@@ -2438,11 +2733,18 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
+  commander@12.1.0:
+    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
+    engines: {node: '>=18'}
+
   commander@2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
   common-path-prefix@3.0.0:
     resolution: {integrity: sha512-QE33hToZseCH3jS0qN96O/bSh3kaw/h+Tq7ngyY9eWDUnTlTNUyqfqvCXioLe5Na5jFsL78ra/wuBU4iuEgd4w==}
+
+  commondir@1.0.1:
+    resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
 
   compressible@2.0.18:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
@@ -2578,6 +2880,10 @@ packages:
       supports-color:
         optional: true
 
+  deepmerge@4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
+    engines: {node: '>=0.10.0'}
+
   default-browser-id@5.0.0:
     resolution: {integrity: sha512-A6p/pu/6fyBcA1TRz/GqWYPViplrftcW2gZC9q79ngNCKAeR/X3gcEdXQHl4KNXV+3wgIJ1CPkJQ3IHM6lcsyA==}
     engines: {node: '>=18'}
@@ -2616,6 +2922,10 @@ packages:
   depd@2.0.0:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
     engines: {node: '>= 0.8'}
+
+  dependency-graph@1.0.0:
+    resolution: {integrity: sha512-cW3gggJ28HZ/LExwxP2B++aiKxhJXMSIt9K48FOXQkm+vuG5gyatXnLsONRJdzO/7VfjDIiaOOa/bs4l464Lwg==}
+    engines: {node: '>=4'}
 
   destroy@1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
@@ -2779,6 +3089,11 @@ packages:
     engines: {node: '>=12'}
     hasBin: true
 
+  esbuild@0.23.1:
+    resolution: {integrity: sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   escalade@3.2.0:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
@@ -2810,6 +3125,9 @@ packages:
   estraverse@5.3.0:
     resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
     engines: {node: '>=4.0'}
+
+  estree-walker@2.0.2:
+    resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
   esutils@2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
@@ -2890,9 +3208,17 @@ packages:
     resolution: {integrity: sha512-6BN9trH7bp3qvnrRyzsBz+g3lZxTNZTbVO2EV1CS0WIcDbawYVdYvGflME/9QP0h0pYlCDBCTjYa9nZzMDpyxQ==}
     engines: {node: '>= 0.8'}
 
+  find-cache-dir@3.3.2:
+    resolution: {integrity: sha512-wXZV5emFEjrridIgED11OoUKLxiYjAcqot/NJdAkOhlJ+vGzwhOAfcG5OX1jP+S0PcjEn8bdMJv+g2jwQ3Onig==}
+    engines: {node: '>=8'}
+
   find-cache-dir@4.0.0:
     resolution: {integrity: sha512-9ZonPT4ZAK4a+1pUPVPZJapbi7O5qbbJPdYw/NOQWZZbVLdDTYM3A4R9z/DpAM08IDaFGsvPgiGZ82WEwUDWjg==}
     engines: {node: '>=14.16'}
+
+  find-up@4.1.0:
+    resolution: {integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==}
+    engines: {node: '>=8'}
 
   find-up@6.3.0:
     resolution: {integrity: sha512-v2ZsoEuVHYy8ZIlYqwPe/39Cy+cFDzp4dXPaxNvkEuouymu+2Jbz0PxpKarJHYJTmv2HWT3O382qY8l4jMWthw==}
@@ -3170,6 +3496,9 @@ packages:
     resolution: {integrity: sha512-X7rqawQBvfdjS10YU1y1YVreA3SsLrW9dX2CewP2EbBJM4ypVNLDkO5y04gejPwKIY9lR+7r9gn3rFPt/kmWFg==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
 
+  injection-js@2.4.0:
+    resolution: {integrity: sha512-6jiJt0tCAo9zjHbcwLiPL+IuNe9SQ6a9g0PEzafThW3fOQi0mrmiJGBJvDD6tmhPh8cQHIQtCOrJuBfQME4kPA==}
+
   inquirer@10.2.2:
     resolution: {integrity: sha512-tyao/4Vo36XnUItZ7DnUXX4f1jVao2mSrleV/5IPtW/XAEA26hRVsbc68nuTEKWcr5vMP/1mVoT2O7u8H4v1Vg==}
     engines: {node: '>=18'}
@@ -3192,6 +3521,10 @@ packages:
   is-binary-path@2.1.0:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
+
+  is-builtin-module@3.2.1:
+    resolution: {integrity: sha512-BSLE3HnV2syZ0FK0iMA/yUGplUeMmNz4AW5fnTunbCIqZi4vG3WjJT9FHMy5D69xmAYBHXQhJdALdpwVxV501A==}
+    engines: {node: '>=6'}
 
   is-core-module@2.15.1:
     resolution: {integrity: sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==}
@@ -3238,6 +3571,9 @@ packages:
 
   is-lambda@1.0.1:
     resolution: {integrity: sha512-z7CMFGNrENq5iFB9Bqo64Xk6Y9sg+epq1myIcdHaGnbMTYOxvzsEtdYqQUylB7LxfkvgrrjP32T6Ywciio9UIQ==}
+
+  is-module@1.0.0:
+    resolution: {integrity: sha512-51ypPSPCoTEIN9dy5Oy+h4pShgJmPCygKfyRCISBI+JoWT/2oJvK8QPxmwv7b/p239jXrm9M1mlQbyKJ5A152g==}
 
   is-network-error@1.1.0:
     resolution: {integrity: sha512-tUdRRAnhT+OtCZR/LxZelH/C7QtjtFrTu5tXCA8pl55eTUElUHT+GPYV8MBMBvea/j+NxQqVt3LbWMRir7Gx9g==}
@@ -3495,6 +3831,10 @@ packages:
     resolution: {integrity: sha512-FMJTLMXfCLMLfJxcX9PFqX5qD88Z5MRGaZCVzfuqeZSPsyiBzs+pahDQjbIWz2QIzPZz0NX9Zy4FX3lmK6YHIg==}
     engines: {node: '>= 12.13.0'}
 
+  locate-path@5.0.0:
+    resolution: {integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==}
+    engines: {node: '>=8'}
+
   locate-path@7.2.0:
     resolution: {integrity: sha512-gvVijfZvn7R+2qyPX8mAuKcFGDf6Nc61GdvGafQsHL0sBIxfKzA+usWn4GFC/bk+QdwPUD4kWFJLhElipq+0VA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -3529,6 +3869,10 @@ packages:
   make-dir@2.1.0:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
     engines: {node: '>=6'}
+
+  make-dir@3.1.0:
+    resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
+    engines: {node: '>=8'}
 
   make-dir@4.0.0:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
@@ -3711,6 +4055,19 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
+  ng-packagr@18.2.1:
+    resolution: {integrity: sha512-dy9ZDpZb3QpAz+Y/m8VAu7ctr2VrnRU3gmQwJagnNybVJtCsKn3lZA3IW7Z7GTLoG5IALSPouiCgiB/C8ozv7w==}
+    engines: {node: ^18.19.1 || >=20.11.1}
+    hasBin: true
+    peerDependencies:
+      '@angular/compiler-cli': ^18.0.0 || ^18.2.0-next.0
+      tailwindcss: ^2.0.0 || ^3.0.0
+      tslib: ^2.3.0
+      typescript: '>=5.4 <5.6'
+    peerDependenciesMeta:
+      tailwindcss:
+        optional: true
+
   nice-napi@1.0.2:
     resolution: {integrity: sha512-px/KnJAJZf5RuBGcfD+Sp2pAKq0ytz8j+1NehvgIGFkvtvFrDM3T8E4x/JJODXK9WZow8RRGrbA9QQ3hs+pDhA==}
     os: ['!win32']
@@ -3881,9 +4238,17 @@ packages:
     resolution: {integrity: sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==}
     engines: {node: '>=0.10.0'}
 
+  p-limit@2.3.0:
+    resolution: {integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==}
+    engines: {node: '>=6'}
+
   p-limit@4.0.0:
     resolution: {integrity: sha512-5b0R4txpzjPWVw/cXXUResoD4hb6U/x9BH08L7nw+GN1sezDzPdxeRvpc9c433fZhBan/wusjbCsqwqm4EIBIQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  p-locate@4.1.0:
+    resolution: {integrity: sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==}
+    engines: {node: '>=8'}
 
   p-locate@6.0.0:
     resolution: {integrity: sha512-wPrq66Llhl7/4AGC6I+cqxT07LhXvWL08LNXz1fENOw0Ap4sRZZ/gZpTTJ5jpurzzzfS2W/Ge9BY3LgLjCShcw==}
@@ -3896,6 +4261,10 @@ packages:
   p-retry@6.2.0:
     resolution: {integrity: sha512-JA6nkq6hKyWLLasXQXUrO4z8BUZGUt/LjlJxx8Gb2+2ntodU/SS63YZ8b0LUTbQ8ZB9iwOfhEPhg4ykKnn2KsA==}
     engines: {node: '>=16.17'}
+
+  p-try@2.2.0:
+    resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
+    engines: {node: '>=6'}
 
   package-json-from-dist@1.0.0:
     resolution: {integrity: sha512-dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==}
@@ -3929,6 +4298,10 @@ packages:
   parseurl@1.3.3:
     resolution: {integrity: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==}
     engines: {node: '>= 0.8'}
+
+  path-exists@4.0.0:
+    resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==}
+    engines: {node: '>=8'}
 
   path-exists@5.0.0:
     resolution: {integrity: sha512-RjhtfwJOxzcFmNOi6ltcbcu4Iu+FL3zEj83dk4kAS+fVpTxXLO1b38RvJgT/0QwvV/L3aY9TAnyv0EOqW4GoMQ==}
@@ -3977,6 +4350,10 @@ packages:
 
   piscina@4.6.1:
     resolution: {integrity: sha512-z30AwWGtQE+Apr+2WBZensP2lIvwoaMcOPkQlIEmSGMJNUvaYACylPYrQM6wSdUNJlnDVMSpLv7xTMJqlVshOA==}
+
+  pkg-dir@4.2.0:
+    resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
+    engines: {node: '>=8'}
 
   pkg-dir@7.0.0:
     resolution: {integrity: sha512-Ie9z/WINcxxLp27BKOCHGde4ITq9UklYKDzVo1nhk5sqGEXU3FpkwP5GM2voTGJkGd9B3Otl+Q4uwSOeSUtOBA==}
@@ -4939,7 +5316,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@angular-devkit/build-angular@18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(typescript@5.5.2)':
+  '@angular-devkit/build-angular@18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(@types/node@22.5.4)(chokidar@3.6.0)(karma@6.4.0)(ng-packagr@18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2))(typescript@5.5.2)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.1801.4(chokidar@3.6.0)
@@ -5009,6 +5386,7 @@ snapshots:
     optionalDependencies:
       esbuild: 0.21.5
       karma: 6.4.0
+      ng-packagr: 18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2)
     transitivePeerDependencies:
       - '@rspack/core'
       - '@swc/core'
@@ -6694,70 +7072,142 @@ snapshots:
   '@esbuild/aix-ppc64@0.21.5':
     optional: true
 
+  '@esbuild/aix-ppc64@0.23.1':
+    optional: true
+
   '@esbuild/android-arm64@0.21.5':
+    optional: true
+
+  '@esbuild/android-arm64@0.23.1':
     optional: true
 
   '@esbuild/android-arm@0.21.5':
     optional: true
 
+  '@esbuild/android-arm@0.23.1':
+    optional: true
+
   '@esbuild/android-x64@0.21.5':
+    optional: true
+
+  '@esbuild/android-x64@0.23.1':
     optional: true
 
   '@esbuild/darwin-arm64@0.21.5':
     optional: true
 
+  '@esbuild/darwin-arm64@0.23.1':
+    optional: true
+
   '@esbuild/darwin-x64@0.21.5':
+    optional: true
+
+  '@esbuild/darwin-x64@0.23.1':
     optional: true
 
   '@esbuild/freebsd-arm64@0.21.5':
     optional: true
 
+  '@esbuild/freebsd-arm64@0.23.1':
+    optional: true
+
   '@esbuild/freebsd-x64@0.21.5':
+    optional: true
+
+  '@esbuild/freebsd-x64@0.23.1':
     optional: true
 
   '@esbuild/linux-arm64@0.21.5':
     optional: true
 
+  '@esbuild/linux-arm64@0.23.1':
+    optional: true
+
   '@esbuild/linux-arm@0.21.5':
+    optional: true
+
+  '@esbuild/linux-arm@0.23.1':
     optional: true
 
   '@esbuild/linux-ia32@0.21.5':
     optional: true
 
+  '@esbuild/linux-ia32@0.23.1':
+    optional: true
+
   '@esbuild/linux-loong64@0.21.5':
+    optional: true
+
+  '@esbuild/linux-loong64@0.23.1':
     optional: true
 
   '@esbuild/linux-mips64el@0.21.5':
     optional: true
 
+  '@esbuild/linux-mips64el@0.23.1':
+    optional: true
+
   '@esbuild/linux-ppc64@0.21.5':
+    optional: true
+
+  '@esbuild/linux-ppc64@0.23.1':
     optional: true
 
   '@esbuild/linux-riscv64@0.21.5':
     optional: true
 
+  '@esbuild/linux-riscv64@0.23.1':
+    optional: true
+
   '@esbuild/linux-s390x@0.21.5':
+    optional: true
+
+  '@esbuild/linux-s390x@0.23.1':
     optional: true
 
   '@esbuild/linux-x64@0.21.5':
     optional: true
 
+  '@esbuild/linux-x64@0.23.1':
+    optional: true
+
   '@esbuild/netbsd-x64@0.21.5':
+    optional: true
+
+  '@esbuild/netbsd-x64@0.23.1':
+    optional: true
+
+  '@esbuild/openbsd-arm64@0.23.1':
     optional: true
 
   '@esbuild/openbsd-x64@0.21.5':
     optional: true
 
+  '@esbuild/openbsd-x64@0.23.1':
+    optional: true
+
   '@esbuild/sunos-x64@0.21.5':
+    optional: true
+
+  '@esbuild/sunos-x64@0.23.1':
     optional: true
 
   '@esbuild/win32-arm64@0.21.5':
     optional: true
 
+  '@esbuild/win32-arm64@0.23.1':
+    optional: true
+
   '@esbuild/win32-ia32@0.21.5':
     optional: true
 
+  '@esbuild/win32-ia32@0.23.1':
+    optional: true
+
   '@esbuild/win32-x64@0.21.5':
+    optional: true
+
+  '@esbuild/win32-x64@0.23.1':
     optional: true
 
   '@inquirer/checkbox@2.5.0':
@@ -6995,6 +7445,13 @@ snapshots:
       '@emnapi/core': 1.2.0
       '@emnapi/runtime': 1.2.0
       '@tybys/wasm-util': 0.9.0
+
+  '@ngrx/signals@18.0.2(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3))(rxjs@7.8.0)':
+    dependencies:
+      '@angular/core': 18.1.0(rxjs@7.8.0)(zone.js@0.14.3)
+      tslib: 2.3.0
+    optionalDependencies:
+      rxjs: 7.8.0
 
   '@ngtools/webpack@18.1.4(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(typescript@5.5.2)(webpack@5.92.1(esbuild@0.21.5))':
     dependencies:
@@ -7278,6 +7735,31 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
+  '@rollup/plugin-json@6.1.0(rollup@4.21.3)':
+    dependencies:
+      '@rollup/pluginutils': 5.1.0(rollup@4.21.3)
+    optionalDependencies:
+      rollup: 4.21.3
+
+  '@rollup/plugin-node-resolve@15.2.3(rollup@4.21.3)':
+    dependencies:
+      '@rollup/pluginutils': 5.1.0(rollup@4.21.3)
+      '@types/resolve': 1.20.2
+      deepmerge: 4.3.1
+      is-builtin-module: 3.2.1
+      is-module: 1.0.0
+      resolve: 1.22.8
+    optionalDependencies:
+      rollup: 4.21.3
+
+  '@rollup/pluginutils@5.1.0(rollup@4.21.3)':
+    dependencies:
+      '@types/estree': 1.0.5
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+    optionalDependencies:
+      rollup: 4.21.3
+
   '@rollup/rollup-android-arm-eabi@4.18.0':
     optional: true
 
@@ -7373,6 +7855,12 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.21.3':
     optional: true
+
+  '@rollup/wasm-node@4.21.3':
+    dependencies:
+      '@types/estree': 1.0.5
+    optionalDependencies:
+      fsevents: 2.3.3
 
   '@schematics/angular@18.1.4(chokidar@3.6.0)':
     dependencies:
@@ -7522,6 +8010,8 @@ snapshots:
   '@types/qs@6.9.15': {}
 
   '@types/range-parser@1.2.7': {}
+
+  '@types/resolve@1.20.2': {}
 
   '@types/retry@0.12.2': {}
 
@@ -7929,6 +8419,8 @@ snapshots:
       base64-js: 1.5.1
       ieee754: 1.2.1
 
+  builtin-modules@3.3.0: {}
+
   bundle-name@4.1.0:
     dependencies:
       run-applescript: 7.0.0
@@ -8057,9 +8549,13 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
+  commander@12.1.0: {}
+
   commander@2.20.3: {}
 
   common-path-prefix@3.0.0: {}
+
+  commondir@1.0.1: {}
 
   compressible@2.0.18:
     dependencies:
@@ -8203,6 +8699,8 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
+  deepmerge@4.3.1: {}
+
   default-browser-id@5.0.0: {}
 
   default-browser@5.2.1:
@@ -8233,6 +8731,8 @@ snapshots:
   depd@1.1.2: {}
 
   depd@2.0.0: {}
+
+  dependency-graph@1.0.0: {}
 
   destroy@1.2.0: {}
 
@@ -8406,6 +8906,33 @@ snapshots:
       '@esbuild/win32-ia32': 0.21.5
       '@esbuild/win32-x64': 0.21.5
 
+  esbuild@0.23.1:
+    optionalDependencies:
+      '@esbuild/aix-ppc64': 0.23.1
+      '@esbuild/android-arm': 0.23.1
+      '@esbuild/android-arm64': 0.23.1
+      '@esbuild/android-x64': 0.23.1
+      '@esbuild/darwin-arm64': 0.23.1
+      '@esbuild/darwin-x64': 0.23.1
+      '@esbuild/freebsd-arm64': 0.23.1
+      '@esbuild/freebsd-x64': 0.23.1
+      '@esbuild/linux-arm': 0.23.1
+      '@esbuild/linux-arm64': 0.23.1
+      '@esbuild/linux-ia32': 0.23.1
+      '@esbuild/linux-loong64': 0.23.1
+      '@esbuild/linux-mips64el': 0.23.1
+      '@esbuild/linux-ppc64': 0.23.1
+      '@esbuild/linux-riscv64': 0.23.1
+      '@esbuild/linux-s390x': 0.23.1
+      '@esbuild/linux-x64': 0.23.1
+      '@esbuild/netbsd-x64': 0.23.1
+      '@esbuild/openbsd-arm64': 0.23.1
+      '@esbuild/openbsd-x64': 0.23.1
+      '@esbuild/sunos-x64': 0.23.1
+      '@esbuild/win32-arm64': 0.23.1
+      '@esbuild/win32-ia32': 0.23.1
+      '@esbuild/win32-x64': 0.23.1
+
   escalade@3.2.0: {}
 
   escape-html@1.0.3: {}
@@ -8426,6 +8953,8 @@ snapshots:
   estraverse@4.3.0: {}
 
   estraverse@5.3.0: {}
+
+  estree-walker@2.0.2: {}
 
   esutils@2.0.3: {}
 
@@ -8561,10 +9090,21 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  find-cache-dir@3.3.2:
+    dependencies:
+      commondir: 1.0.1
+      make-dir: 3.1.0
+      pkg-dir: 4.2.0
+
   find-cache-dir@4.0.0:
     dependencies:
       common-path-prefix: 3.0.0
       pkg-dir: 7.0.0
+
+  find-up@4.1.0:
+    dependencies:
+      locate-path: 5.0.0
+      path-exists: 4.0.0
 
   find-up@6.3.0:
     dependencies:
@@ -8845,6 +9385,10 @@ snapshots:
 
   ini@4.1.3: {}
 
+  injection-js@2.4.0:
+    dependencies:
+      tslib: 2.3.0
+
   inquirer@10.2.2:
     dependencies:
       '@inquirer/core': 9.1.0
@@ -8870,6 +9414,10 @@ snapshots:
   is-binary-path@2.1.0:
     dependencies:
       binary-extensions: 2.3.0
+
+  is-builtin-module@3.2.1:
+    dependencies:
+      builtin-modules: 3.3.0
 
   is-core-module@2.15.1:
     dependencies:
@@ -8900,6 +9448,8 @@ snapshots:
   is-interactive@1.0.0: {}
 
   is-lambda@1.0.1: {}
+
+  is-module@1.0.0: {}
 
   is-network-error@1.1.0: {}
 
@@ -9188,6 +9738,10 @@ snapshots:
 
   loader-utils@3.3.1: {}
 
+  locate-path@5.0.0:
+    dependencies:
+      p-locate: 4.1.0
+
   locate-path@7.2.0:
     dependencies:
       p-locate: 6.0.0
@@ -9234,6 +9788,10 @@ snapshots:
       pify: 4.0.1
       semver: 5.7.2
     optional: true
+
+  make-dir@3.1.0:
+    dependencies:
+      semver: 6.3.1
 
   make-dir@4.0.0:
     dependencies:
@@ -9405,6 +9963,36 @@ snapshots:
   negotiator@0.6.3: {}
 
   neo-async@2.6.2: {}
+
+  ng-packagr@18.2.1(@angular/compiler-cli@18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2))(tslib@2.3.0)(typescript@5.5.2):
+    dependencies:
+      '@angular/compiler-cli': 18.1.0(@angular/compiler@18.1.0(@angular/core@18.1.0(rxjs@7.8.0)(zone.js@0.14.3)))(typescript@5.5.2)
+      '@rollup/plugin-json': 6.1.0(rollup@4.21.3)
+      '@rollup/plugin-node-resolve': 15.2.3(rollup@4.21.3)
+      '@rollup/wasm-node': 4.21.3
+      ajv: 8.17.1
+      ansi-colors: 4.1.3
+      browserslist: 4.23.3
+      cacache: 18.0.4
+      chokidar: 3.6.0
+      commander: 12.1.0
+      convert-source-map: 2.0.0
+      dependency-graph: 1.0.0
+      esbuild: 0.23.1
+      fast-glob: 3.3.2
+      find-cache-dir: 3.3.2
+      injection-js: 2.4.0
+      jsonc-parser: 3.3.1
+      less: 4.2.0
+      ora: 5.4.1
+      piscina: 4.6.1
+      postcss: 8.4.38
+      rxjs: 7.8.1
+      sass: 1.77.6
+      tslib: 2.3.0
+      typescript: 5.5.2
+    optionalDependencies:
+      rollup: 4.21.3
 
   nice-napi@1.0.2:
     dependencies:
@@ -9685,9 +10273,17 @@ snapshots:
 
   os-tmpdir@1.0.2: {}
 
+  p-limit@2.3.0:
+    dependencies:
+      p-try: 2.2.0
+
   p-limit@4.0.0:
     dependencies:
       yocto-queue: 1.1.1
+
+  p-locate@4.1.0:
+    dependencies:
+      p-limit: 2.3.0
 
   p-locate@6.0.0:
     dependencies:
@@ -9702,6 +10298,8 @@ snapshots:
       '@types/retry': 0.12.2
       is-network-error: 1.1.0
       retry: 0.13.1
+
+  p-try@2.2.0: {}
 
   package-json-from-dist@1.0.0: {}
 
@@ -9757,6 +10355,8 @@ snapshots:
 
   parseurl@1.3.3: {}
 
+  path-exists@4.0.0: {}
+
   path-exists@5.0.0: {}
 
   path-is-absolute@1.0.1: {}
@@ -9788,6 +10388,10 @@ snapshots:
   piscina@4.6.1:
     optionalDependencies:
       nice-napi: 1.0.2
+
+  pkg-dir@4.2.0:
+    dependencies:
+      find-up: 4.1.0
 
   pkg-dir@7.0.0:
     dependencies:

@@ -3,6 +3,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "commerce-shared": [
+        "./dist/commerce-shared"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
@@ -18,17 +23,10 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
-    "lib": ["ES2022", "dom"],
-    "paths": {
-      "commerce-shared": [
-        "./node_modules/workspace-shared/dist/commerce-shared"
-      ],
-      "@api/*": ["./src/app/modules/api/*"],
-      "@models/*": ["./src/app/modules/models/*"],
-      "@routes/*": ["./src/app/modules/routes/*"],
-      "@store/*": ["./src/app/modules/services/*"],
-      "@ui/*": ["./src/app/modules/ui/*"]
-    }
+    "lib": [
+      "ES2022",
+      "dom"
+    ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
