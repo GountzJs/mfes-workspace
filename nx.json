@@ -1,18 +1,15 @@
 {
-  "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "defaultBase": "develop",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nx/workspace:run-commands",
+      "runner": "nx/tasks-runners/default",
       "options": {
-        "command": "pnpm",
         "cacheableOperations": ["build", "lint"]
       }
     }
   },
   "targetDefaults": {
-    "build": {
-      "dependsOn": ["^build", "^lint"]
+    "serve": {
+      "dependsOn": ["^build"]
     }
   }
 }
