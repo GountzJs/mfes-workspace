@@ -1,0 +1,20 @@
+{
+  "name": "mfes-workspace",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.2.0",
+    "pnpm": "=9.9.0"
+  },
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "GountzJs",
+  "license": "ISC",
+  "packageManager": "pnpm@9.9.0",
+  "devDependencies": {
+    "@nx/js": "19.7.2",
+    "@nx/workspace": "19.7.2",
+    "nx": "19.5.0"
+  },
+  "nx": {}
+}
